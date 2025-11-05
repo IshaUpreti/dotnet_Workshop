@@ -100,46 +100,131 @@
 
 
 
-//Task 4
+////Task 4
 
-using System;
+//using System;
 
-class Program
-{
-    static void Main()
-    {
+//class Program
+//{
+//    static void Main()
+//    {
+
+//        int[] favoriteNumbers = { 7, 3, 9, 1, 5 };
+
+
+//        Array.Sort(favoriteNumbers);
+//        Console.WriteLine("Array after sorting (ascending):");
+//        for (int i = 0; i < favoriteNumbers.Length; i++)
+//        {
+//            Console.WriteLine(favoriteNumbers[i]);
+//        }
+
+
+//        Array.Reverse(favoriteNumbers);
+//        Console.WriteLine("\nArray after reversing:");
+//        for (int i = 0; i < favoriteNumbers.Length; i++)
+//        {
+//            Console.WriteLine(favoriteNumbers[i]);
+//        }
+
+
+//        int searchNumber = 5;
+//        int index = Array.IndexOf(favoriteNumbers, searchNumber);
+//        if (index != -1)
+//        {
+//            Console.WriteLine($"\nNumber {searchNumber} found at index {index} in the array.");
+//        }
+//        else
+//        {
+//            Console.WriteLine($"\nNumber {searchNumber} not found in the array.");
+//        }
+//    }
+//}
+
+
+
+
+
+////Task 5
+
+//using System;
+
+//class Program
+//{
+//    static void Main()
+//    {
+
+//        DateTime birthDate = new DateTime(2000, 5, 10); 
+
+
+//        DateTime currentDate = DateTime.Now;
+
+
+//        TimeSpan ageSpan = currentDate - birthDate;
+//        int ageInYears = (int)(ageSpan.TotalDays / 365.25); 
+
+
+//        Console.WriteLine($"Birthdate: {birthDate.ToShortDateString()}");
+//        Console.WriteLine($"Current Date: {currentDate.ToShortDateString()}");
+//        Console.WriteLine($"Age: {ageInYears} years");
+
+
+//        DateTime newDate = birthDate.AddDays(10);
+//        Console.WriteLine($"Birthdate after adding 10 days: {newDate.ToShortDateString()}");
+//    }
+//}
+
+
+
+
+
+////Task 6
+
+//using System;
+//using System.Collections.Generic;
+
+//class Program
+//{
+//    static void Main()
+//    {
         
-        int[] favoriteNumbers = { 7, 3, 9, 1, 5 };
+//        List<string> fruits = new List<string> { "Apple", "Banana", "Mango" };
 
         
-        Array.Sort(favoriteNumbers);
-        Console.WriteLine("Array after sorting (ascending):");
-        for (int i = 0; i < favoriteNumbers.Length; i++)
-        {
-            Console.WriteLine(favoriteNumbers[i]);
-        }
-
-       
-        Array.Reverse(favoriteNumbers);
-        Console.WriteLine("\nArray after reversing:");
-        for (int i = 0; i < favoriteNumbers.Length; i++)
-        {
-            Console.WriteLine(favoriteNumbers[i]);
-        }
+//        fruits.Add("Orange");
 
         
-        int searchNumber = 5;
-        int index = Array.IndexOf(favoriteNumbers, searchNumber);
-        if (index != -1)
-        {
-            Console.WriteLine($"\nNumber {searchNumber} found at index {index} in the array.");
-        }
-        else
-        {
-            Console.WriteLine($"\nNumber {searchNumber} not found in the array.");
-        }
-    }
-}
+//        fruits.Remove("Banana");
+
+      
+//        Console.WriteLine("Fruits in the list:");
+//        foreach (string fruit in fruits)
+//        {
+//            Console.WriteLine(fruit);
+//        }
+
+        
+//        Dictionary<int, string> fruitDict = new Dictionary<int, string>
+//        {
+//            {1, "Apple"},
+//            {2, "Banana"},
+//            {3, "Mango"}
+//        };
+
+        
+//        fruitDict.Add(4, "Orange");
+
+        
+//        Console.WriteLine("\nFruits in the dictionary:");
+//        foreach (KeyValuePair<int, string> kvp in fruitDict)
+//        {
+//            Console.WriteLine($"ID: {kvp.Key}, Name: {kvp.Value}");
+//        }
+//    }
+//}
+
+
+
 
 
 
